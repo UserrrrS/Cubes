@@ -1,0 +1,59 @@
+body {
+  background-color: #04395e;
+}
+
+.name_wrapper {
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.name_user {
+  display: flex;
+  justify-content: end;
+}
+
+.cubes_wrapper {
+  display: inline-block;
+  white-space: nowrap;
+
+}
+
+.cubes_group {
+  display: inline-grid;
+  margin: 100px 10px 0 50px;
+}
+
+.small_group {
+  display: flex;
+}
+
+.cubes_small {
+  width: 100px;
+  height: 100px;
+  background-color: #70a288;
+  margin: 0 5px 5px 0;
+}
+
+
+.cubes_big {
+  width: 205px;
+  height: 200px;
+  background-color: #dab785;
+  margin: 0 5px 5px 0;
+}
+
+.rectangle {
+  width: 205px;
+  height: 100px;
+  background-color: #d5896f;
+  margin: 0 5px 5px 0;
+}
+
+.cubes_small:hover,
+.cubes_big:hover,
+.rectangle:hover {
+  transition: 0.6s;
+  opacity: 0.5;
+  cursor: pointer;
+}
